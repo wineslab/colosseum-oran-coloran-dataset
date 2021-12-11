@@ -27,14 +27,13 @@ This repository contains the dataset for the paper M. Polese, L. Bonati, S. D'Or
   	- Slice 2: URLLC UEs
 
 ## Training configurations
-The scheduling policies and initial Resource Block Group (RBG) allocations for each slice are as follows.
+For each slicing policy (directories [sched0](rome_static_medium/sched0), [sched1](rome_static_medium/sched1), [sched2](rome_static_medium/sched2)), the Resource Block Group (RBG) allocations for each slice are as follows.
 
 <table>
 <thead>
 <tr>
 <th></th>
-<th align="center" colspan="3">Slice Scheduling Policy</th>
-<th align="center" colspan="3">Slice RBG Allocation</th>
+<th align="center" colspan="3">Number of RBGs per Slice</th>
 </tr>
 </thead>
 <thead>
@@ -43,283 +42,176 @@ The scheduling policies and initial Resource Block Group (RBG) allocations for e
 <th align="center">Slice 0</th>
 <th align="center">Slice 1</th>
 <th align="center">Slice 2</th>
-<th align="center">Slice 0</th>
-<th align="center">Slice 1</th>
-<th align="center">Slice 2</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td align="right">tr0</td>
-<td align="right">PF</td>
-<td align="right">RR</td>
-<td align="right">PF</td>
-<td align="right">1</td>
 <td align="right">2</td>
-<td align="right">4</td>
+<td align="right">13</td>
+<td align="right">2</td>
 </tr>
 <tr>
 <td align="right">tr1</td>
-<td align="right">WF</td>
-<td align="right">RR</td>
-<td align="right">RR</td>
-<td align="right">1</td>
 <td align="right">4</td>
+<td align="right">11</td>
 <td align="right">2</td>
 </tr>
 <tr>
 <td align="right">tr2</td>
-<td align="right">RR</td>
-<td align="right">PF</td>
-<td align="right">WF</td>
+<td align="right">6</td>
+<td align="right">9</td>
 <td align="right">2</td>
-<td align="right">1</td>
-<td align="right">4</td>
 </tr>
 <tr>
 <td align="right">tr3</td>
-<td align="right">WF</td>
-<td align="right">WF</td>
-<td align="right">PF</td>
+<td align="right">8</td>
+<td align="right">7</td>
 <td align="right">2</td>
-<td align="right">4</td>
-<td align="right">1</td>
 </tr>
 <tr>
 <td align="right">tr4</td>
-<td align="right">RR</td>
-<td align="right">WF</td>
-<td align="right">WF</td>
-<td align="right">4</td>
+<td align="right">10</td>
+<td align="right">5</td>
 <td align="right">2</td>
-<td align="right">1</td>
 </tr>
 <tr>
 <td align="right">tr5</td>
-<td align="right">WF</td>
-<td align="right">WF</td>
-<td align="right">WF</td>
-<td align="right">4</td>
-<td align="right">1</td>
+<td align="right">12</td>
+<td align="right">3</td>
 <td align="right">2</td>
 </tr>
 <tr>
 <td align="right">tr6</td>
-<td align="right">PF</td>
-<td align="right">PF</td>
-<td align="right">WF</td>
+<td align="right">14</td>
+<td align="right">1</td>
 <td align="right">2</td>
-<td align="right">2</td>
-<td align="right">3</td>
 </tr>
 <tr>
 <td align="right">tr7</td>
-<td align="right">WF</td>
-<td align="right">RR</td>
-<td align="right">PF</td>
 <td align="right">2</td>
-<td align="right">3</td>
-<td align="right">2</td>
+<td align="right">11</td>
+<td align="right">4</td>
 </tr>
 <tr>
 <td align="right">tr8</td>
-<td align="right">WF</td>
-<td align="right">PF</td>
-<td align="right">RR</td>
-<td align="right">3</td>
-<td align="right">2</td>
-<td align="right">2</td>
+<td align="right">4</td>
+<td align="right">9</td>
+<td align="right">4</td>
 </tr>
 <tr>
 <td align="right">tr9</td>
-<td align="right">PF</td>
-<td align="right">WF</td>
-<td align="right">RR</td>
-<td align="right">3</td>
-<td align="right">3</td>
-<td align="right">1</td>
+<td align="right">6</td>
+<td align="right">7</td>
+<td align="right">4</td>
 </tr>
 <tr>
 <td align="right">tr10</td>
-<td align="right">RR</td>
-<td align="right">RR</td>
-<td align="right">PF</td>
-<td align="right">3</td>
-<td align="right">1</td>
-<td align="right">3</td>
+<td align="right">8</td>
+<td align="right">5</td>
+<td align="right">4</td>
 </tr>
 <tr>
 <td align="right">tr11</td>
-<td align="right">RR</td>
-<td align="right">PF</td>
-<td align="right">RR</td>
-<td align="right">1</td>
+<td align="right">10</td>
 <td align="right">3</td>
-<td align="right">3</td>
+<td align="right">4</td>
 </tr>
 <tr>
 <td align="right">tr12</td>
-<td align="right">RR</td>
-<td align="right">RR</td>
-<td align="right">RR</td>
+<td align="right">12</td>
 <td align="right">1</td>
-<td align="right">2</td>
 <td align="right">4</td>
 </tr>
 <tr>
 <td align="right">tr13</td>
-<td align="right">WF</td>
-<td align="right">PF</td>
-<td align="right">WF</td>
-<td align="right">1</td>
-<td align="right">4</td>
 <td align="right">2</td>
+<td align="right">9</td>
+<td align="right">6</td>
 </tr>
 <tr>
 <td align="right">tr14</td>
-<td align="right">PF</td>
-<td align="right">WF</td>
-<td align="right">PF</td>
 <td align="right">4</td>
-<td align="right">2</td>
-<td align="right">1</td>
+<td align="right">7</td>
+<td align="right">6</td>
 </tr>
 <tr>
 <td align="right">tr15</td>
-<td align="right">RR</td>
-<td align="right">WF</td>
-<td align="right">PF</td>
-<td align="right">3</td>
-<td align="right">1</td>
-<td align="right">4</td>
+<td align="right">6</td>
+<td align="right">5</td>
+<td align="right">6</td>
 </tr>
 <tr>
 <td align="right">tr16</td>
-<td align="right">PF</td>
-<td align="right">RR</td>
-<td align="right">RR</td>
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">4</td>
+<td align="right">8</td>
+<td align="right">3</td>
+<td align="right">6</td>
 </tr>
 <tr>
 <td align="right">tr17</td>
-<td align="right">PF</td>
-<td align="right">RR</td>
-<td align="right">WF</td>
+<td align="right">10</td>
 <td align="right">1</td>
+<td align="right">6</td>
+</tr>
+<tr>
+<td align="right">tr18</td>
 <td align="right">2</td>
+<td align="right">7</td>
+<td align="right">8</td>
+</tr>
+<tr>
+<td align="right">tr19</td>
 <td align="right">4</td>
-</tr>
-</tbody>
-</table>
-
-## Dynamic slice resizing
-After the initial allocation, the RBGs for each slice are dynamically re-allocated as follows.
-
-<table>
-<thead>
-<tr>
-<th align="center">Time [s]</th>
-<th align="center">RBG Slice 0</th>
-<th align="center">RBG Slice 1</th>
-<th align="center">RBG Slice 2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="right">0-30</td>
-  <td align="center" colspan="3">initial allocation (see training configurations above)</td>
+<td align="right">5</td>
+<td align="right">8</td>
 </tr>
 <tr>
-<td align="right">30-60</td>
+<td align="right">tr20</td>
+<td align="right">6</td>
+<td align="right">3</td>
+<td align="right">8</td>
+</tr>
+<tr>
+<td align="right">tr21</td>
+<td align="right">8</td>
 <td align="right">1</td>
-<td align="right">2</td>
-<td align="right">4</td>
+<td align="right">8</td>
 </tr>
 <tr>
-<td align="right">60-90</td>
+<td align="right">tr22</td>
+<td align="right">2</td>
+<td align="right">5</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td align="right">tr23</td>
+<td align="right">4</td>
+<td align="right">3</td>
+<td align="right">10</td>
+</tr>
+<tr>
+<td align="right">tr24</td>
+<td align="right">6</td>
 <td align="right">1</td>
-<td align="right">4</td>
-<td align="right">2</td>
+<td align="right">10</td>
 </tr>
 <tr>
-<td align="right">90-120</td>
-<td align="right">2</td>
-<td align="right">1</td>
-<td align="right">4</td>
-</tr>
-<tr>
-<td align="right">120-150</td>
-<td align="right">2</td>
-<td align="right">4</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td align="right">150-180</td>
-<td align="right">4</td>
-<td align="right">2</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td align="right">180-210</td>
-<td align="right">4</td>
-<td align="right">1</td>
-<td align="right">2</td>
-</tr>
-<tr>
-<td align="right">210-240</td>
-<td align="right">2</td>
+<td align="right">tr25</td>
 <td align="right">2</td>
 <td align="right">3</td>
+<td align="right">12</td>
 </tr>
 <tr>
-<td align="right">240-270</td>
-<td align="right">2</td>
-<td align="right">3</td>
-<td align="right">2</td>
-</tr>
-<tr>
-<td align="right">270-300</td>
-<td align="right">3</td>
-<td align="right">2</td>
-<td align="right">2</td>
-</tr>
-<tr>
-<td align="right">300-330</td>
-<td align="right">3</td>
-<td align="right">3</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td align="right">330-360</td>
-<td align="right">3</td>
-<td align="right">1</td>
-<td align="right">3</td>
-</tr>
-<tr>
-<td align="right">360-390</td>
-<td align="right">1</td>
-<td align="right">3</td>
-<td align="right">3</td>
-</tr>
-<tr>
-<td align="right">390-420</td>
-<td align="right">1</td>
-<td align="right">2</td>
+<td align="right">tr26</td>
 <td align="right">4</td>
+<td align="right">1</td>
+<td align="right">12</td>
 </tr>
 <tr>
-<td align="right">420-450</td>
-<td align="right">1</td>
-<td align="right">4</td>
-<td align="right">2</td>
-</tr>
-<tr>
-<td align="right">450-480</td>
-<td align="right">4</td>
+<td align="right">tr27</td>
 <td align="right">2</td>
 <td align="right">1</td>
+<td align="right">14</td>
 </tr>
 </tbody>
 </table>
