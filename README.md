@@ -16,7 +16,7 @@ This work was partially supported by the U.S. National Science Foundation under 
   	- Medium: UEs uniformly distributed within 50 m of each BS
 - UE Mobility: static
 - Traffic classes:
-  	- eMBB: Constant bitrate traffic (1 Mbps per UE)
+  	- eMBB: Constant bitrate traffic (4 Mbps per UE)
   	- MTC: Poisson traffic (30 pkt/s of 125 bytes per UE)
   	- URLLC: Poisson traffic (10 pkt/s of 125 bytes per UE)
 - UEs belong to different traffic classes:
