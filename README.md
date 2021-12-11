@@ -1,6 +1,8 @@
 # Colosseum ColoRAN O-RAN Dataset
 This repository contains the dataset for the paper M. Polese, L. Bonati, S. D'Oro, S. Basagni, T. Melodia, "ColoRAN: Design and Testing of Open RAN Intelligence on Large-scale Experimental Platforms," arXiv XXX, December 2021. Please cite the paper if you plan to use it in your publication.
 
+This work was partially supported by the U.S. National Science Foundation under Grants CNS-1923789 and NSF CNS-1925601, and the U.S. Office of Naval Research under Grant N00014-20-1-2132.
+
 ## Experiment setup
 - Number of Base Stations (BSs): 7
 - Channel bandwidth: 10 MHz (50 Physical Resource Blocks (PRBs))
