@@ -5,6 +5,7 @@ This work was partially supported by the U.S. National Science Foundation under 
 
 ## Experiment setup
 - Number of Base Stations (BSs): 7
+	- Nodes: 1, 8, 15, 22, 29, 36, 43
 - Channel bandwidth: 10 MHz (50 Physical Resource Blocks (PRBs))
 - Number of slices for each BS: 3
 - Scheduling policies available to each slice:
@@ -20,9 +21,9 @@ This work was partially supported by the U.S. National Science Foundation under 
   	- MTC: Poisson traffic (30 pkt/s of 125 bytes per UE)
   	- URLLC: Poisson traffic (10 pkt/s of 125 bytes per UE)
 - UEs belong to different traffic classes:
-  	- eMBB UEs (slice 0): 3, 6, 9, 14, 17, 20, 25, 28, 31, 36, 39, 42
-  	- MTC UEs (slice 1): 4, 7, 10, 15, 18, 21, 26, 29, 32, 37, 40, 43
-  	- URLLC UEs (slice 2): 2, 5, 8, 11, 13, 16, 19, 22, 24, 27, 30, 33, 35, 38, 41, 44
+	- eMBB UEs (slice 0): 3, 6, 10, 13, 17, 20, 24, 27, 31, 34, 38, 41, 45, 48
+	- MTC UEs (slice 1): 4, 7, 11, 14, 18, 21, 25, 28, 32, 35, 39, 42, 46, 49
+ 	- URLLC UEs (slice 2): 2, 5, 9, 12, 16, 19, 23, 26, 30, 33, 37, 40, 44, 47
 - UEs are divided per slice based on traffic types:
   	- Slice 0: eMBB UEs
   	- Slice 1: MTC UEs
