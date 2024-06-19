@@ -30,7 +30,7 @@ This work was partially supported by the U.S. National Science Foundation under 
   	- Slice 2: URLLC UEs
 
 ## Training configurations
-For each slicing policy (directories [sched0](rome_static_medium/sched0), [sched1](rome_static_medium/sched1), [sched2](rome_static_medium/sched2)), the Resource Block Group (RBG) allocations for each slice are as follows.
+For each scheduling policy (directories [sched0](rome_static_medium/sched0), [sched1](rome_static_medium/sched1), [sched2](rome_static_medium/sched2)), the Resource Block Group (RBG) allocations for each slice are as follows.
 
 <table>
 <thead>
