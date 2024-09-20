@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: If you use this software, please cite the following paper.
+authors:
+  - family-names: Polese
+    given-names: Michele
+  - family-names: Bonati
+    given-names: Leonardo
+  - family-names: D'Oro
+    given-names: Salvatore
+  - family-names: Basagni
+    given-names: Stefano
+  - family-names: Melodia
+    given-names: Tommaso
+title: "Dataset for ColO-RAN: Developing Machine Learning-based xApps for Open RAN Closed-loop Control on Programmable Experimental Platforms"
+type: dataset
+date-released: 2021-12-10
+license: GPL-3.0
+repository-code: "https://github.com/wineslab/colosseum-oran-coloran-dataset"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: Polese
+    given-names: Michele
+  - family-names: Bonati
+    given-names: Leonardo
+  - family-names: D'Oro
+    given-names: Salvatore
+  - family-names: Basagni
+    given-names: Stefano
+  - family-names: Melodia
+    given-names: Tommaso
+  title: "ColO-RAN: Developing Machine Learning-based xApps for Open RAN Closed-loop Control on Programmable Experimental Platforms"
+  journal: IEEE Transactions on Mobile Computing
+  volume: 22
+  issue: 10
+  start: 5787
+  end: 5800
+  month: 7
+  year: 2022
